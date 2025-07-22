@@ -7,3 +7,18 @@ body{
 main{
     flex-grow: 1;
 }
+
+.item{
+    background-color: blueviolet;
+    width: 200px;
+    height: 200px;
+    transition: 300ms;
+    transition-property: ;
+    transition-duration: ;
+    transition-timing-function:;
+}
+
+.item:hover{
+    background-color: aqua;
+    
+}
