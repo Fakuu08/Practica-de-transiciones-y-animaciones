@@ -22,3 +22,12 @@ main{
     background-color: aqua;
     
 }
+
+.parrafoamplio{
+    transition: font-size 300ms ease-out;
+}
+
+.parrafoamplio:hover{
+    font-size: large;
+    cursor: pointer;
+}
