@@ -43,3 +43,23 @@ main{
 .itemOpacidad:hover{
     opacity: 1;
 }
+
+.subrrayado{
+    position: relative;
+    display: inline-block;
+}
+
+.subrrayado::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0%;
+    background-color: brown;
+    height: 2px;
+    transition: width 300ms linear;
+}
+
+.subrrayado:hover::after{
+    width: 100%;
+}
