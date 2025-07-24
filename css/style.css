@@ -12,10 +12,10 @@ main{
     background-color: blueviolet;
     width: 200px;
     height: 200px;
-    transition: 300ms;
-    transition-property: ;
-    transition-duration: ;
-    transition-timing-function:;
+    /*transition: 300ms;*/
+    transition-property: background-color;
+    transition-duration: 800ms ;
+    transition-timing-function: linear;
 }
 
 .item:hover{
